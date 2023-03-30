@@ -98,7 +98,7 @@ export const state = () => ({
           id: uuidv4(),
           name: "LinkedIn",
           icon: "linkedin",
-          url: "https://linkedin.com/in/realstoman",
+          url: "https://www.linkedin.com/in/yifan-ivan-zhang/",
         },
         {
           id: uuidv4(),
@@ -164,7 +164,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Phone",
-          details: "555 8888 888",
+          details: "647-321-1632",
         },
       ],
       technologies: [
@@ -771,7 +771,7 @@ export const state = () => ({
 
 export const getters = {
   getProjectById: (state) => (id) => {
-    return state.projects.find((project) => project.id == id);
+    return state.projects.find((project) => project.id === id);
   },
 };
 
