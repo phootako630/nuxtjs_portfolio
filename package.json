@@ -16,7 +16,8 @@
     "uuid": "^8.3.2",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.10",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.1.1",
@@ -27,4 +28,3 @@
     "vue-backtotop": "^1.6.1"
   }
 }
-
